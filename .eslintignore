@@ -1,0 +1,17 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore specific files or patterns
+*.min.js
+*.test.js
+*.spec.js
+
+# Ignore all files in a specific directory
+public/
+
+# Ignore specific files
+frontend/src/components/OldComponent.vue
